@@ -19,8 +19,10 @@ docker build -t dialogagentgpt2 .
 **Run the container**
 
 ```bash
-docker run -d dialogagentgpt2 --volume .cache:/dialogagentbot/.cache --env-file .env
+docker run -d -v /workspaces/DialogAgentGPT2/.cache:/dialogagentbot/.cache --env-file .env dialogagentgpt2
 ```
+
+> In case you want to set your `.cache` local directory, you should set the absolute path to the `docker run` command. (e.g. `-v /home/username/.cache:/dialogagentbot/.cache`)
 
 Just not edit --volume and --env-file vars please uwu
 
