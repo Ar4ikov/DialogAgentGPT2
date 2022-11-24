@@ -19,8 +19,10 @@ docker build -t dialogagentgpt2 .
 **Run the container**
 
 ```bash
-docker run -d dialogagentgpt2 --volume .cache:/dialogagentbot/$TRANSFORMERS_CACHE --env-file .env
+docker run -d dialogagentgpt2 --volume .cache:/dialogagentbot/.cache --env-file .env
 ```
+
+Just not edit --volume and --env-file vars please uwu
 
 ### Credits
 
