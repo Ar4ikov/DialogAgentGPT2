@@ -1,6 +1,6 @@
 # DialogAgentGPT2
 
-This is a DialogAgent that uses GPT2 as the underlying model. It is based on the [microsoft/DialoGPT](https://huggingface.co/microsoft/DialoGPT). <br>
+This is a DialogAgent that uses GPT2 as the underlying model. It is based on the [microsoft/DialoGPT](https://huggingface.co/microsoft/DialoGPT-small). <br>
 
 HuggingFace Model: https://huggingface.co/Ar4ikov/DialogAgentGPT2 <br>
 
